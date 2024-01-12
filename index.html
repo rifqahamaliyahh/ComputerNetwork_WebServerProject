@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TUGAS BESAR JARKOM</title>
+    <style>
+      *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+      }
+      .banner{
+          width: 100%;
+          height: 100vh;
+          background-image: url(bg.jpg);
+          background-size: cover;
+          background-position: center;
+      }
+
+      .picture{
+          width: 800px;
+          height: 400px;
+          position: absolute;
+          top: 50%;
+          background-image: url(dafa.jpg), url(rifqah.jpg), url(acel.jpg);
+          background-repeat: no-repeat;
+          background-position: left, center, right;
+      }
+
+      .content{
+          width: 100%;
+          position: absolute;
+          top: 10%;
+          transform: translateY(-50%);
+          text-align: center;
+          color: #454480;
+      }
+
+      .content h1{
+          font-size: 50px;
+          margin-top: 80px;
+      }
+
+      .content p{
+          margin: 20px auto;
+          font-weight: 100;
+          line-height: 25px;
+          font-size: 25px;
+      }
+
+      .content2{
+          width: 100%;
+          position: absolute;
+          top: 65%;
+          transform: translateY(-50%);
+          text-align: center;
+          color: #454480;
+      }
+
+      button{
+          width: 200px;
+          padding: 15px 0;
+          text-align: center;
+          margin: 20px 10px;
+          border-radius: 25px;
+          font-weight: bold;
+          border: 2px solid #009688;
+          background: transparent;
+          color: #454480;
+          cursor: pointer;
+          position: relative;
+          overflow: hidden;
+      }
+
+      .buttonName{
+          width: 180px;
+          color: #000;
+          font-size: 12px;
+          padding: 12px 0;
+          background: #e1acac;
+          border: 0;
+          border-radius: 20px;
+          outline: none;
+          margin-top: 30px;
+      }
+
+      span{
+          background: #009688;
+          height: 100%;
+          width: 0%;
+          border-radius: 25px;
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          z-index: -1;
+          transition: 0.5s;
+      }
+
+      button:hover span{
+          width: 100%;
+      }
+
+      button:hover{
+          border: none;
+      }
+
+      .linkProgram {
+          width: 100%;
+          position: absolute;
+          top: 80%;
+          transform: translateY(-50%);
+          text-align: center;
+          color: #454480;
+      }
+
+      .col{
+          width: 85%;
+          position: absolute;
+          top: 45%;
+          left: 15%;
+          transform: translateY(-50%);
+          text-align: center;
+      }
+
+      .pic{
+          width: 200px;
+          height: 230px;
+          display: inline-block;
+          padding: 15px 25px;
+          box-sizing: border-box;
+          cursor: pointer;
+          margin: 10px 15px;
+          background-position: center;
+          background-size: cover;
+      }
+
+      .pic1{
+          background-image: url(picture/dafa.png);
+      }
+      .pic2{
+          background-image: url(picture/rifqah.png);
+      }
+      .pic3{
+          background-image: url(picture/acel.png);
+      }
+
+
+     </style> 
+  </head>
+  <body>
+    <div class="banner">
+      <div class="content">
+        <h1>WELCOME TO OUR WEBSITE</h1>
+        <p>Kelompok Tugas Besar Jaringan Komputer</p>
+      </div>
+      <div class="col">
+        <div class="pic pic1">
+        </div>
+        <div class="pic pic2">
+        </div>
+        <div class="pic pic3">
+        </div>
+        <div class="pic pic4">
+        </div>
+      </div>
+      <div class="content2">
+          <button class="buttonName">DAFA RAFIANSYAH</button>
+          <button class="buttonName">RIFQAH AMALIYAH</button>
+          <button class="buttonName">GREGORIUS MARCELINO</button>
+      </div>
+      <div class="linkProgram">
+          <button type=""button><span></span><a href="https://drive.google.com/drive/folders/1CZjy5-YuQ3gvizEKVpJEBt9rVWzbVSo-?usp=sha
+            ring" target="_blank" >HASIL PROGRAM</a></button>
+      </div>
+    </div>
+
+  </body>
+</html>
